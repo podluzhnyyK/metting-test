@@ -1,10 +1,6 @@
-/**
- * Example function.
- *
- * @return {boolean} Example return.
- */
-function test() {
-    return false;
-}
+// header menu
+const headerNav = document.querySelector('.header-nav');
 
-test();
+document.querySelector('.btn--burger').addEventListener('click', () => {
+    headerNav.classList.toggle('header-nav--active');
+});
